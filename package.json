@@ -1,0 +1,31 @@
+{
+  "name": "node_sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/controller/dist/index.js",
+    "start:dev": "nodemon api/controller/dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryosuke-220/node_sample.git",
+    "start": "node dist/index.js",
+    "start:dev": "nodemon dist/index.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^18.19.22",
+    "nodemon": "^3.1.4",
+    "ts-dotenv": "^0.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^9.2.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-generator": "^4.16.1",
+    "ngrok": "^5.0.0-beta.2"
+  }
+}
